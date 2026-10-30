@@ -1,0 +1,21 @@
+{
+  "name": "demo-juego-taller",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinostrozacl/demo-juego-taller.git"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^3.2.4"
+  }
+}
