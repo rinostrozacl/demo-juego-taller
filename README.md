@@ -20,4 +20,4 @@ npm test
 npm run build
 ```
 
-La imagen de producción sirve `dist/` con nginx. Coolify construye el `Dockerfile` en el entorno production.
+`npm run build` genera `dist/`. La imagen de producción es nginx con ese build: en el servidor, `npm ci` con Node 22 sobre Alpine aborta y la imagen Debian no llegó a terminar.
